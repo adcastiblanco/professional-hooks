@@ -25,9 +25,8 @@ const Checkout = () => {
               <button type="button"  onClick={handleRemoveItem(product)}><i className='fas fa-trash-alt'/></button>
             </div>
           ))
-        : <h3>Sin pedidos...</h3>
+          : <h3>Sin pedidos...</h3>
         }
-        
       </div>
       {cart.length > 0 &&
           <div className="Checkout-sidebar">
